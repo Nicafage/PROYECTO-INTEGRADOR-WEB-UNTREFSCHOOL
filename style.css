@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;1,300&family=Roboto&display=swap');
+
+
+ img{
+height: auto;
+width: 300px;
+ }
+ .untref-titulo{
+  font-family:'Belanosima', sans-serif ;  
+ }
+
+ .inicio{
+   background-image: url("imagenes/titulo.jpg");
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column;
+   width: auto;
+   height: 200px;
+ }
+ .inicio h1{
+   font-family:'Belanosima', sans-serif ;
+   color: #181823 ;
+ }
