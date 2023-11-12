@@ -5,28 +5,126 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans&family=Roboto&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;1,300&family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;1,300;1,400&family=Roboto&display=swap');
+  /* colores
+  #FC7300 naranja , #1F8A70 verde agua , #00425A azul oscuro ,
+  #181823 negro, #EFF5F5 blanco
+  */
 
 
- img{
-height: auto;
-width: 300px;
+
+ /* barra nav */
+ .barra{
+  display: flex;
+  align-items: center;
  }
  .untref-titulo{
   font-family:'Belanosima', sans-serif ;  
  }
-
+ /* inicio */
  .inicio{
    background-image: url("imagenes/titulo.jpg");
    background-position: center;
    background-size: cover;
    display: flex;
-   justify-content: center;
    align-items: center;
    flex-flow: column;
    width: auto;
-   height: 200px;
+   height: 400px;
+   border-style: solid;
+   border-color: #181823;
+   
  }
  .inicio h1{
    font-family:'Belanosima', sans-serif ;
    color: #181823 ;
+   padding-top: 5rem;
+   font-size: 5rem;
  }
+/* QUIENES SOMOS */
+.quiens{
+  margin-top: 1rem;
+}
+.quienes-somos{
+  text-align: center;
+    background-color: #1F8A70;
+    border-color: #00425A;
+    width: 18rem;
+    margin: auto;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 12px;
+    margin-top: 6rem;
+    font-size: 2rem;
+    font-family:'Belanosima', sans-serif ;
+}
+.card-text{
+  font-family:'Belanosima', sans-serif;
+  font-size: 20px;
+}
+.card-quienes{
+  margin-top: 3rem;
+}
+
+.elegirnos-t h2{
+  text-align: center;
+    background-color: #1F8A70;
+    border-color: #00425A;
+    width: 20rem;
+    margin: auto;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 12px;
+    margin-top: 6rem;
+    font-size: 2rem;
+    font-family:'Belanosima', sans-serif ;
+}
+.elegirnos-t p{
+  text-align: center;
+  margin-top: 2rem;
+  font-family:'Belanosima', sans-serif;
+  font-size: 20px;
+  color:#00425A ;
+}
+.elegirnos-t img{
+  
+  width: 50%;
+}
+
+.noticias-t{
+  text-align: center;
+  background-color: #1F8A70;
+  border-color: #00425A;
+  width: 20rem;
+  margin: auto;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 12px;
+  margin-top: 6rem;
+  font-size: 2rem;
+  font-family:'Belanosima', sans-serif ;
+}
+.noticias-t2 h3{
+  font-family:'Belanosima', sans-serif ;
+  font-size: 30px;
+  color:#181823;
+  margin-top: 6rem;
+  
+  
+}
+.noticias-t2 p{
+  font-family:'Belanosima', sans-serif;
+  font-size: 20px;
+  color:#00425A ;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 2rem;
+}
+.redes-sociales h2{
+  font-family:'Belanosima', sans-serif ;
+}
+.redes-sociales img{
+  width: 40px; 
+
+}
